@@ -1,0 +1,31 @@
+# Enable SSH in VM
+
+sudo apt update
+
+sudo apt upgrade # Not Necessary
+
+sudo apt install openssh-server
+
+sudo service ssh start
+
+sudo systemctl status ssh
+
+sudo ufw allow ssh
+
+sudo ufw enable
+
+sudo ufw status
+
+sudo reboot
+
+ifconfig
+
+ssh -p 2222 user_name@127.0.0.1  # From Windows  Powershell/Mobaxtreme
+
+Enter your password
+
+pwd
+
+cd Desktop
+
+mkdir mango
